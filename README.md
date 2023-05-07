@@ -38,13 +38,13 @@
 The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your plan in [sportmonks.com](https://sportmonks.com/)
 In essence, admins can adjust leagues which will be available for users. **Warning**: Make sure that the database has league(s) that user will be able to request.
 
-![add](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![add](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/add_league.PNG)
 
 
 ### Delete a league from the database
 The command ```/del_league``` is used to delete chosen league from the database. If admins delete league it will be hidden for users.
 
-![delete](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![delete](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/del_league.PNG)
 
 
 ### Get a retrospective match score
