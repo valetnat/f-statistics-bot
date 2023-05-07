@@ -32,11 +32,13 @@
 ```/settings``` set your timezone to display valid time<br>
 # Commands that are available only for admins
 ```/add_league``` add a league to the database<br>
-```/del_league``` delete a league from the database'<br>
+```/del_league``` delete a league from the database<br>
 
 ### Add a league to the database
-The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your plan in [sportmonks.com](https://sportmonks.com/)
-In essence, admins can adjust leagues which will be available for users. **Warning**: Make sure that the database has league(s) that user will be able to request.
+The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your plan in [sportmonks.com](https://sportmonks.com/). 
+In essence, admins can adjust leagues which will be available for users. 
+
+**Warning**: Make sure that the database has league(s) that user will be able to request.
 
 ![add](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/add_league.PNG)
 
@@ -48,31 +50,38 @@ The command ```/del_league``` is used to delete chosen league from the database.
 
 
 ### Get a retrospective match score
-After selection ```/head_to_head``` the bot will ask you to choose a league, a season and rivals. All messages are provided with markup buttons to simplify selection and also to ensure correct data input.
+After selection ```/head_to_head``` the bot will ask you to choose a league, a season and rivals. 
+All messages are provided with markup buttons to simplify selection and also to ensure correct data input.
 
-![head to head](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![head to head](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/head_to_head.PNG)
 
 
 ### Get the current season league table
-After selection ```/get_table``` the bot will ask you to choose a league by selecting the league button. Data will be represented as a table below:
+After selection ```/get_table``` the bot will ask you to choose a league by selecting the league button. 
+Data will be represented as a table below:
 
-![table](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![table](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/get_table.PNG)
 
 
 ### Get the upcoming matches
-After selection ```/upcoming``` the bot will ask you to choose a league by selecting the league button. Bot will send you a message about upcoming match(es) 5 days ahead.
+After selection ```/upcoming``` the bot will ask you to choose a league by selecting the league button. 
+Bot will send you a message about upcoming match(es) 5 days ahead.
 
-![upcoming](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![upcoming](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/upcoming.PNG)
 
 
 ### Get livescore
-After selection ```/livescore``` the bot will ask you to choose a league. Livescore information contains match status(1st, 2n half, extra times, breaks etc.), match score and time elapsed.
+After selection ```/livescore``` the bot will ask you to choose a league. 
+Livescore information contains match status(1st, 2n half, extra times, breaks etc.), match score and time elapsed.
 
-![livescore](https://user-images.githubusercontent.com/99086730/163853567-16d50359-bd1c-42e6-8fc4-73732a5e996e.png)
+![livescore](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/livescore.PNG)
 
 
 ### Adjust the timezone
-After selection ```/settings``` the bot will ask you to share the location. **Warning**: Be aware that if user denies to share the location the time will be displayed as CET.
+After selection ```/settings``` the bot will ask you to share the location. 
+**Warning**: Be aware that if user denies to share the location the time will be displayed as CET.
+
+![timezone](https://github.com/valetnat/f-statistics-bot/blob/083056ceccdb6192fbd0e3535259495a4e45c73b/timezone.PNG)
 
 ### Getting started
 
