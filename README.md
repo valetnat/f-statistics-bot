@@ -1,7 +1,7 @@
 # 📈 Football Statistics Bot
-️This is a template of [Telegram Bot API](https://core.telegram.org/bots/api/) that provides users with match schedules and historical matches, livescore, standings and other comprehensive Football statistics 
-from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/) written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/).
-
+️This is a template of [Telegram Bot](https://core.telegram.org/bots/api/) that provides users with match schedules and retrospective match data, 
+livescores, standings and other comprehensive Football statistics from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/).
+The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/).
 
 ## Navigation
   * [What can it do?](#what-can-it-do?)
@@ -10,7 +10,7 @@ from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-start
       * [Get a retrospective match score](#get-a-retrospective-match-score)
       * [Get the current season league table](#get-the-current-season-league-table)
       * [Get the upcoming matches](#get-the-upcoming-matches)
-      * [Get livescore](#get-livescore)
+      * [Get livescores](#get-livescores)
       * [Adjust the timezone](#adjust-the-timezone)
   * [Getting started](#getting-started)
       * [Installation](#installation)
@@ -73,7 +73,7 @@ Bot will send you a message about upcoming match(es) 5 days ahead.
 ![upcoming](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/upcoming.PNG)
 
 
-## Get livescore
+## Get livescores
 After selection ```/livescore``` the bot will ask you to choose a league. 
 Livescore information contains match status(1st, 2n half, extra times, breaks etc.), match score and time elapsed.
 
@@ -97,7 +97,7 @@ After selection ```/settings``` the bot will ask you to share the location.
 5. Install requirements ```pip install -r requirements.txt```;
 6. Configure default variables as shown in [Bot settings](#bot-settings);  
 7. Run pooling ```python main.py```
-8. Add leagues to the database using /add_league command.
+8. Add leagues to the database using ```/add_league``` command.
 
 ## Bot settings:
 
@@ -127,7 +127,7 @@ SITE_TOKEN=fdsfjsh3^YTFDkdkfhdddsyffg
 SITE_HOST=api.sportmonks.com/v3/
 ```
 
-# Database settings
+## Database settings
 ```zhs
 # mySQL database 
 DB_USER=<some username>
