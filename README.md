@@ -1,7 +1,7 @@
 # 📈 Football Statistics Bot
-️This is a template of [Telegram Bot](https://core.telegram.org/bots/api/) that provides users with match schedules and retrospective match data, 
+️This is a [Telegram Bot](https://core.telegram.org/bots/api/) that provides users with match schedules, retrospective match data, 
 livescores, standings and other comprehensive Football statistics from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/).
-The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/).
+The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/) and  [mySQL](https://dev.mysql.com/doc/).
 
 ## Navigation
   * [What can it do?](#what-can-it-do?)
@@ -37,8 +37,7 @@ The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogr
 ```/del_league``` delete a league from the database<br>
 
 ## Add a league to the database
-The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your portmonks.com](https://sportmonks.com/) plan.  
-In essence, admins can adjust leagues which will be available for users. 
+The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your [sportmonks.com](https://sportmonks.com/) plan. In essence, admins can adjust leagues which will be available for users. 
 
 **Warning**: Make sure that the database has league(s) that user will be able to request.
 
@@ -85,7 +84,7 @@ After selection ```/settings``` the bot will ask you to share the location.
 
 **Warning**: Be aware that if user denies to share the location the time will be displayed as CET.
 
-![timezone](https://github.com/valetnat/f-statistics-bot/blob/083056ceccdb6192fbd0e3535259495a4e45c73b/timezone.PNG)
+![timezone](https://github.com/valetnat/f-statistics-bot/blob/42499ee8f0d465f03cd9b1fa472d2e9cd1ad2604/timezone.PNG)
 
 # Getting started
 
@@ -95,7 +94,7 @@ After selection ```/settings``` the bot will ask you to share the location.
 3. Clone this repo and `cd` into it;  
 4. Copy `env_dist` to `.env` (with dot); 
 5. Install requirements ```pip install -r requirements.txt```;
-6. Configure default variables as shown in [Bot settings](#bot-settings);  
+6. Configure default variables as shown in [Bot settings](#bot-settings) and [Database settings](#database-settings);  
 7. Run pooling ```python main.py```
 8. Add leagues to the database using ```/add_league``` command.
 
