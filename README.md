@@ -1,6 +1,6 @@
 # 📈 Football Statistics Bot
 ️This is a template of [Telegram Bot API](https://core.telegram.org/bots/api/) that provides users with match schedules and historical matches, livescore, standings and other comprehensive Football statistics 
-from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/) written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/)
+from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/) written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/).
 
 
 ## Navigation
@@ -13,13 +13,11 @@ from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-start
       * [Get livescore](#get-livescore)
       * [Adjust the timezone](#adjust-the-timezone)
   * [Getting started](#getting-started)
-  * [Simple use template](#simple-use-template)
-  * [Configure environment variables](#configure-environment-variables)
+      * [Installation](#installation)
       * [Bot settings](#bot-settings)
-      * [Database](#database)
+      * [Database settings](#database-settings)
   * [Bot structure](#bot-structure)
 
-<hr>
 
 # What can it do?
 
@@ -39,7 +37,7 @@ from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-start
 ```/del_league``` delete a league from the database<br>
 
 ## Add a league to the database
-The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your plan in [sportmonks.com](https://sportmonks.com/). 
+The command ```/add_league``` is used to add chosen league to the database. After selection ```/add_league``` the bot will send all available leagues in your portmonks.com](https://sportmonks.com/) plan.  
 In essence, admins can adjust leagues which will be available for users. 
 
 **Warning**: Make sure that the database has league(s) that user will be able to request.
@@ -91,31 +89,17 @@ After selection ```/settings``` the bot will ask you to share the location.
 
 # Getting started
 
-## Simple use template
+## Installation  
+1. Go to [@BotFather](https://t.me/telegram), create a new bot, write down its token;
+2. Go to [Sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/), register and get API token;
+3. Clone this repo and `cd` into it;  
+4. Copy `env_dist` to `.env` (with dot); 
+5. Install requirements ```pip install -r requirements.txt```;
+6. Configure default variables as shown in [Bot settings](#bot-settings);  
+7. Run pooling ```python main.py```
+8. Add leagues to the database using /add_league command.
 
-<a href="https://github.com/valetnat/f-statistics-bot/generate">Click here to create repository from this template</a> or: 
-```zhs
-$ git clone https://github.com/valetnat/f-statistics-bot <your project name>
-$ cd <your project name>
-$ pip install -r requirements.txt
-
-# run pooling
-$ python main.py
-```
-
-## Configure environment variables
-Copy file `.env.exm` and rename it to `.env`
-```
-$ cp .env.exm .env
-```
-Than configure variables
-```bash
-$ vim .env
-# or 
-$ nano .env
-```
-
-# Bot settings:
+## Bot settings:
 
 `ADMINS` - administrators Ids divided by ,
 ```zhs
@@ -131,22 +115,21 @@ ADMINS=12345678
 BOT_TOKEN=123452345243:AAfdfdh3fdssk23ofds
 ```
 
-`SITE_TOKEN` - get site token from [Sportmonks](https://docs.sportmonks.com/cricket/getting-started/getting-started)
+`SITE_TOKEN` - site token from [Sportmonks](https://docs.sportmonks.com/cricket/getting-started/getting-started)
 ```zhs
 # example
 SITE_TOKEN=fdsfjsh3^YTFDkdkfhdddsyffg
 ```
 
-`SITE_HOST` - bot token from [Sportmonks](https://docs.sportmonks.com/cricket/getting-started/getting-started)
+`SITE_HOST` - host from [Sportmonks](https://docs.sportmonks.com/cricket/getting-started/getting-started)
 ```zhs
 # example
 SITE_HOST=api.sportmonks.com/v3/
 ```
 
-# Database
-mySQL is using as database
-
+# Database settings
 ```zhs
+# mySQL database 
 DB_USER=<some username>
 DB_PASSWORD=<some password>
 DB_HOST=<some host>
@@ -155,32 +138,19 @@ DB_NAME=<some database name>
 ```
 
 # Bot structure
-```zhs
 
+```zhs
 ├───data               # bot configuration
 ├───database           # interaction with database
-├───filters            # some aiogram filters
+├───filters            # aiogram filters
 ├───handlers   
 │   ├───admins         # admins message handlers 
-│   └───users 
+│   └───users          # users message handlers 
 ├───keyboards   
 │   ├───default        # aiogram markups 
 │   └───inline         # aiogram inline markups 
 ├───models             # database models
 ├───site_api           # interaction with api
 ├───states             # aiogram states
-└───utils              # some helpful things
+└───utils              # miscellaneous features
 ```
-
-
-#### Installation  
-1. Go to [@BotFather](https://t.me/telegram), create a new bot, write down its token, add it to your existing group 
-and **make bot an admin**. You also need to give it "Delete messages" permission.  
-2. Create a separate group where report messages will be sent and add all group admins there. 
-**Remember**: anyone who is in that group may perform actions like "Delete", "Ban" and so on, so be careful.  
-3. Use some bot like [@my_id_bot](https://t.me/my_id_bot) to get IDs of these two groups;  
-4. Clone this repo and `cd` into it;  
-5. Copy `env_dist` to `.env` (with dot). **Warning**: files starting with dot may be hidden in Linux, 
-so don't worry if you stop seeing this file, it's still here!  
-6. Replace default values with your own;  
-7. Now choose installation method: **systemd** or **Docker**
