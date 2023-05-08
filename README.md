@@ -1,5 +1,7 @@
-# 🔷 Football Statistics Bot
-️Here you can get comprehensive statistics from chosen football teams and its games.
+# 📈 Football Statistics Bot
+️This is a template of [Telegram Bot API](https://core.telegram.org/bots/api/) that provides users with match schedules and historical matches, livescore, standings and other comprehensive Football statistics 
+from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/) written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/), [mySQL](https://dev.mysql.com/doc/)
+
 
 ## Navigation
   * [What can it do?](#what-can-it-do?)
@@ -21,15 +23,18 @@
 
 # What can it do?
 
-```# Commands that are available for all users including admins```
-```/start``` start bot <br>
-```/help``` how to use<br>
-```/head_to_head``` get a football match scores between some teams<br>
-```/livescore``` get livescore matches information<br>
-```/upcoming``` get information about upcoming matches<br>
-```/get_table``` get a league table<br>
-```/settings``` set your timezone to display valid time<br>
-```# Commands that are available only for admins```
+**Commands that are available for all users including admins**
+
+```/start``` - start the bot <br>
+```/help``` - how to use<br>
+```/head_to_head``` - get a football match scores between some teams<br>
+```/livescore``` - get livescore matches information<br>
+```/upcoming``` - get information about upcoming matches<br>
+```/get_table``` - get a league table<br>
+```/settings``` - set your timezone to display valid time<br>
+
+**Commands that are available only for admins**
+
 ```/add_league``` add a league to the database<br>
 ```/del_league``` delete a league from the database<br>
 
@@ -43,7 +48,8 @@ In essence, admins can adjust leagues which will be available for users.
 
 
 ## Delete a league from the database
-The command ```/del_league``` is used to delete chosen league from the database. If admins delete league it will be hidden for users.
+The command ```/del_league``` is used to delete chosen league from the database. 
+If admins delete league it will be hidden for users.
 
 ![delete](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/del_league.PNG)
 
@@ -78,6 +84,7 @@ Livescore information contains match status(1st, 2n half, extra times, breaks et
 
 ## Adjust the timezone
 After selection ```/settings``` the bot will ask you to share the location. 
+
 **Warning**: Be aware that if user denies to share the location the time will be displayed as CET.
 
 ![timezone](https://github.com/valetnat/f-statistics-bot/blob/083056ceccdb6192fbd0e3535259495a4e45c73b/timezone.PNG)
