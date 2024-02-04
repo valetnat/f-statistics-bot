@@ -1,0 +1,77 @@
+2023-05-08 10:43:16,491 root INFO Importing module models.models
+2023-05-08 10:43:16,684 aiogram INFO Bot: FstatisticBot [@FstaticticBot]
+2023-05-08 10:43:16,789 aiogram WARNING Updates were skipped successfully.
+2023-05-08 10:43:16,789 root INFO Bot is running
+2023-05-08 10:43:16,934 root INFO Default commands added
+2023-05-08 10:43:16,934 aiogram.dispatcher.dispatcher INFO Start polling.
+2023-05-08 10:43:33,406 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:43:33,537 root INFO Query: command_head_to_head - Added into `history` table successfully
+2023-05-08 10:43:37,890 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:43:43,420 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:43:43,421 root INFO SQL query <db_get_teams> completed successfully
+2023-05-08 10:43:43,712 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:43:43,716 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:43:43,717 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:43:43,717 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:43:43,830 root INFO Id: 464552481 - Head to head command completed successfully
+2023-05-08 10:44:11,067 root INFO Filter <IsAdmin> runs
+2023-05-08 10:44:11,067 root INFO Message passed the Filter <IsAdmin>
+2023-05-08 10:44:11,069 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:44:11,429 root INFO Query: command_add_league - Added into `history` table successfully
+2023-05-08 10:44:13,630 root INFO SQL query <db_add_league> completed successfully
+2023-05-08 10:44:13,706 root INFO SQL query <db_create_league_table> completed successfully
+2023-05-08 10:44:13,961 root INFO SQL query <db_add_teams> completed successfully
+2023-05-08 10:44:13,961 root INFO Id: 464552481 - Add_league command completed successfully
+2023-05-08 10:44:15,575 root INFO SQL query <db_add_league> completed successfully
+2023-05-08 10:44:15,733 root INFO SQL query <db_create_league_table> completed successfully
+2023-05-08 10:44:15,990 root INFO SQL query <db_add_teams> completed successfully
+2023-05-08 10:44:15,990 root INFO Id: 464552481 - Add_league command completed successfully
+2023-05-08 10:44:21,615 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:44:21,745 root INFO Query: command_livescore - Added into `history` table successfully
+2023-05-08 10:44:23,215 root INFO Id: 464552481 - Livescore command completed successfully
+2023-05-08 10:44:26,017 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:44:26,233 root INFO Query: command_livescore - Added into `history` table successfully
+2023-05-08 10:44:27,677 root INFO Id: 464552481 - Livescore command completed successfully
+2023-05-08 10:44:33,696 root INFO Query: command_settings - Added into `history` table successfully
+2023-05-08 10:44:36,234 root INFO SQL query <update_user_timezone> completed successfully
+2023-05-08 10:44:36,323 root INFO Id: 464552481 - Settings command completed successfully
+2023-05-08 10:44:43,120 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:44:43,208 root INFO Query: command_upcoming - Added into `history` table successfully
+2023-05-08 10:44:44,553 root INFO SQL query <db_available_leagues> completed successfully
+2023-05-08 10:44:44,860 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,861 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,862 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,862 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,863 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,863 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,863 root INFO SQL query <get_user_timezone> completed successfully
+2023-05-08 10:44:44,953 root INFO Id: 464552481 - Upcoming command completed successfully
+2023-05-08 10:44:54,595 root INFO DATABASE COMMIT CHANGES
+2023-05-08 10:44:54,595 root INFO DATABASE CONNECTION INTERRUPR
+2023-05-08 10:44:54,595 aiogram.dispatcher.dispatcher INFO Stop polling...
+2023-05-08 10:44:54,596 aiogram WARNING Goodbye!
+2023-05-08 10:45:36,884 root INFO Importing module models.models
+2023-05-08 10:45:37,067 aiogram INFO Bot: FstatisticBot [@FstaticticBot]
+2023-05-08 10:45:37,176 aiogram WARNING Updates were skipped successfully.
+2023-05-08 10:45:37,176 root INFO Bot is running
+2023-05-08 10:45:37,337 root INFO Default commands added
+2023-05-08 10:45:37,338 aiogram.dispatcher.dispatcher INFO Start polling.
+2023-05-08 10:45:40,143 root INFO SQL query <get_users> completed successfully
+2023-05-08 10:45:40,144 root INFO SQL query <update_user> completed successfully
+2023-05-08 10:45:40,219 root INFO Admin commands added
+2023-05-08 10:45:40,222 root INFO Query: command_start - Added into `history` table successfully
+2023-05-08 10:45:40,222 root INFO Id: 464552481 -  Start command completed successfully
+2023-05-08 10:45:42,290 root INFO DATABASE COMMIT CHANGES
+2023-05-08 10:45:42,290 root INFO DATABASE CONNECTION INTERRUPR
+2023-05-08 10:45:42,290 aiogram.dispatcher.dispatcher INFO Stop polling...
+2023-05-08 10:45:42,290 aiogram WARNING Goodbye!
+2023-05-08 10:46:17,367 root INFO Importing module models.models
+2023-05-08 10:46:17,511 aiogram INFO Bot: FstatisticBot [@FstaticticBot]
+2023-05-08 10:46:17,602 aiogram WARNING Updates were skipped successfully.
+2023-05-08 10:46:17,602 root INFO Bot is running
+2023-05-08 10:46:17,741 root INFO Default commands added
+2023-05-08 10:46:17,741 aiogram.dispatcher.dispatcher INFO Start polling.
+2023-05-08 10:46:19,495 root INFO DATABASE COMMIT CHANGES
+2023-05-08 10:46:19,495 root INFO DATABASE CONNECTION INTERRUPR
+2023-05-08 10:46:19,495 aiogram.dispatcher.dispatcher INFO Stop polling...
+2023-05-08 10:46:19,495 aiogram WARNING Goodbye!
