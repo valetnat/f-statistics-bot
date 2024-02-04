@@ -1,4 +1,4 @@
-# 📈 Football Statistics Bot
+g# 📈 Football Statistics Bot
 ️This is a [Telegram Bot](https://core.telegram.org/bots/api/) that provides users with match schedules, retrospective match data, 
 livescores, standings and other comprehensive Football statistics from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/).
 The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/) and  [mySQL](https://dev.mysql.com/doc/).
@@ -41,42 +41,42 @@ The command ```/add_league``` is used to add chosen league to the database. Afte
 
 **Warning**: Make sure that the database has league(s) that user will be able to request.
 
-![add](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/add_league.PNG)
+![add](tg_bot_png/add_league.PNG)
 
 
 ## Delete a league from the database
 The command ```/del_league``` is used to delete chosen league from the database. 
 If admins delete league it will be hidden for users.
 
-![delete](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/del_league.PNG)
+![delete](tg_bot_png/del_league.PNG)
 
 
 ## Get a retrospective match score
 After selection ```/head_to_head``` the bot will ask you to choose a league, a season and rivals. 
 All messages are provided with markup buttons to simplify selection and also to ensure correct data input.
 
-![head to head](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/head_to_head.PNG)
+![head to head](tg_bot_png/head_to_head.PNG)
 
 
 ## Get the current season league table
 After selection ```/get_table``` the bot will ask you to choose a league by selecting the league button. 
 Data will be represented as a table below:
 
-![table](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/get_table.PNG)
+![table](tg_bot_png/get_table.PNG)
 
 
 ## Get the upcoming matches
 After selection ```/upcoming``` the bot will ask you to choose a league by selecting the league button. 
 Bot will send you a message about upcoming match(es) 5 days ahead.
 
-![upcoming](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/upcoming.PNG)
+![upcoming](tg_bot_png/upcoming.PNG)
 
 
 ## Get livescores
 After selection ```/livescore``` the bot will ask you to choose a league. 
 Livescore information contains match status(1st, 2n half, extra times, breaks etc.), match score and time elapsed.
 
-![livescore](https://github.com/valetnat/f-statistics-bot/blob/0f8aa0da409580663d2410c03c7d68ba62c993e0/livescore.PNG)
+![livescore](tg_bot_png/livescore.PNG)
 
 
 ## Adjust the timezone
@@ -84,7 +84,7 @@ After selection ```/settings``` the bot will ask you to share the location.
 
 **Warning**: Be aware that if user denies to share the location the time will be displayed as CET.
 
-![timezone](https://github.com/valetnat/f-statistics-bot/blob/42499ee8f0d465f03cd9b1fa472d2e9cd1ad2604/timezone.PNG)
+![timezone](tg_bot_png/timezone.PNG)
 
 # Getting started
 
