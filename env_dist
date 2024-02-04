@@ -1,0 +1,10 @@
+ADMINS=000000   #user_tg_id
+BOT_TOKEN=sometoken
+
+SITE_TOKEN=sitetoken
+SITE_HOST=api.sportmonks.com/v3/
+
+DB_NAME=name
+DB_USER=root
+DB_HOST=localhost
+DB_PASSWORD=password
