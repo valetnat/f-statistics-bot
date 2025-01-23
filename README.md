@@ -1,4 +1,4 @@
-g# 📈 Football Statistics Bot
+📈 Football Statistics Bot
 ️This is a [Telegram Bot](https://core.telegram.org/bots/api/) that provides users with match schedules, retrospective match data, 
 livescores, standings and other comprehensive Football statistics from [sportmonks.com](https://docs.sportmonks.com/football/welcome/getting-started/).
 The Bot is written in [Python v3.10](https://docs.python.org/3.10/) using [aiogram](https://docs.aiogram.dev/en/latest/) and  [mySQL](https://dev.mysql.com/doc/).
